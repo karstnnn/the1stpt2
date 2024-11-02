@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="/index.html" class="logo">
+            <img src="/assets/images/turtle.jpg">sksk
+        </a>
+    </header>
+
+    <section class="sect">
+        <h1 class="heading">try try try</h1>
+
+        <div class="img-gallery">
+            <img src="/assets/images/marceline.jpg" onclick="openFullImg(this.src)">
+            <img src="/assets/images/bmo2.jpg" onclick="openFullImg(this.src)">
+            <img src="/assets/images/marceline.jpg" onclick="openFullImg(this.src)">
+            <img src="/assets/images/bmo2.jpg" onclick="openFullImg(this.src)">
+            <img src="/assets/images/marceline.jpg" onclick="openFullImg(this.src)">
+            <img src="/assets/images/bmo2.jpg" onclick="openFullImg(this.src)">
+        </div>
+
+        <div class="full-img" id="fullImgBox">
+            <img src="/assets/images/bmo2.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+
+    </section>
+    <script src="/assets/script/main.js"></script>
+
+    
+</body>
+</html>
